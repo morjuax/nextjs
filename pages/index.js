@@ -5,11 +5,11 @@ const HomePage = () => (
 		<main>
 			<h1>Página principal</h1>
 			<Link href="/about">
-				<a>Ir a <em>/aboute</em></a>
+				<a>Ir a <em>/about</em></a>
 			</Link>
-			<stylejsx>{`
+			<style>{`
 				h1 { color: red; }
-			`}</stylejsx>
+			`}</style>
 		</main>
 	);
 
